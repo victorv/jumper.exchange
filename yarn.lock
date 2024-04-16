@@ -3817,6 +3817,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sentry/core@npm:7.110.1":
+  version: 7.110.1
+  resolution: "@sentry/core@npm:7.110.1"
+  dependencies:
+    "@sentry/types": 7.110.1
+    "@sentry/utils": 7.110.1
+  checksum: dda7cbf8f4507734d7eacd940f2fb07f4ee6cdfbdb9cfe6c7224b6d69daed22977b9ddf266baaf7d537421123f450b546d644997b1e595f931045d410d7a7ba5
+  languageName: node
+  linkType: hard
+
 "@sentry/core@npm:7.85.0":
   version: 7.85.0
   resolution: "@sentry/core@npm:7.85.0"
@@ -3827,15 +3837,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/integrations@npm:^7.85.0":
-  version: 7.85.0
-  resolution: "@sentry/integrations@npm:7.85.0"
+"@sentry/integrations@npm:^7.108.0":
+  version: 7.110.1
+  resolution: "@sentry/integrations@npm:7.110.1"
   dependencies:
-    "@sentry/core": 7.85.0
-    "@sentry/types": 7.85.0
-    "@sentry/utils": 7.85.0
+    "@sentry/core": 7.110.1
+    "@sentry/types": 7.110.1
+    "@sentry/utils": 7.110.1
     localforage: ^1.8.1
-  checksum: 0a789143a7274c08f115c0798a1a83162221748675d6149df8e787433d139e5cb21ab0225fe8e24ae45c85c048ecccbe25d4281f9cf4f047c000c31550920f83
+  checksum: b6b1cd90156b76ad3e9a5981e40abd38741d913786fa3b2d115db1e16ae2c30e1b4334a890fafa76bb6e189e1e78549f47a0efb4632161f2d2ec1b3c73eab38b
   languageName: node
   linkType: hard
 
@@ -3865,10 +3875,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sentry/types@npm:7.110.1":
+  version: 7.110.1
+  resolution: "@sentry/types@npm:7.110.1"
+  checksum: 01efae1d010045c2095ed092682650d13beabb793477fc6702b01f629e6ed180d42f3a97caa4b2a4fc4826d76d0d1ad7c9b81cf56b60cf3c8b75cf985c0f36ee
+  languageName: node
+  linkType: hard
+
 "@sentry/types@npm:7.85.0":
   version: 7.85.0
   resolution: "@sentry/types@npm:7.85.0"
   checksum: a482edd6e7af046a744ba8617b20980128deccd9ecc62ada285e4194d7b96488cc3063a7f0726af1b3d2e8d4cbf67ac7d142f982e02cf5869499359d56d1820c
+  languageName: node
+  linkType: hard
+
+"@sentry/utils@npm:7.110.1":
+  version: 7.110.1
+  resolution: "@sentry/utils@npm:7.110.1"
+  dependencies:
+    "@sentry/types": 7.110.1
+  checksum: 1a59e250800b4a87f2b11066a21d72256aa4be4fb1893a109c50d2454469cd3b4122cc8c0bbc0a33a5849c96451d7e8fa5356649b7121b9668b041c65ff77b3e
   languageName: node
   linkType: hard
 
@@ -7101,7 +7127,7 @@ __metadata:
 
 "fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.3
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -8186,7 +8212,7 @@ __metadata:
     "@mui/material": ^5.14.20
     "@safe-global/safe-apps-sdk": ^8.1.0
     "@sentry/browser": ^7.85.0
-    "@sentry/integrations": ^7.85.0
+    "@sentry/integrations": ^7.108.0
     "@sentry/react": ^7.85.0
     "@tanstack/react-query": ^5.12.2
     "@types/node": ^20.10.3
@@ -9939,7 +9965,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.19.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.4#~builtin<compat/resolve>":
   version: 1.22.8
-  resolution: "resolve@patch:resolve@npm%3A1.22.8#~builtin<compat/resolve>::version=1.22.8&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.8#~builtin<compat/resolve>::version=1.22.8&hash=07638b"
   dependencies:
     is-core-module: ^2.13.0
     path-parse: ^1.0.7
@@ -9952,7 +9978,7 @@ __metadata:
 
 "resolve@patch:resolve@^2.0.0-next.4#~builtin<compat/resolve>":
   version: 2.0.0-next.5
-  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.5#~builtin<compat/resolve>::version=2.0.0-next.5&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.5#~builtin<compat/resolve>::version=2.0.0-next.5&hash=07638b"
   dependencies:
     is-core-module: ^2.13.0
     path-parse: ^1.0.7
@@ -10829,7 +10855,7 @@ __metadata:
 
 "typescript@patch:typescript@^5.3.2#~builtin<compat/typescript>":
   version: 5.3.2
-  resolution: "typescript@patch:typescript@npm%3A5.3.2#~builtin<compat/typescript>::version=5.3.2&hash=14eedb"
+  resolution: "typescript@patch:typescript@npm%3A5.3.2#~builtin<compat/typescript>::version=5.3.2&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
