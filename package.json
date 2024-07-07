@@ -15,7 +15,7 @@
     "@lifi/widget": "^2.9.4",
     "@mui/icons-material": "^5.14.19",
     "@mui/material": "^5.14.20",
-    "@safe-global/safe-apps-sdk": "^8.1.0",
+    "@safe-global/safe-apps-sdk": "^9.1.0",
     "@sentry/browser": "^7.85.0",
     "@sentry/integrations": "^7.85.0",
     "@sentry/react": "^7.85.0",
